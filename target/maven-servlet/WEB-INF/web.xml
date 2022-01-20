@@ -1,0 +1,16 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>QueryUser</servlet-name>
+    <servlet-class>com.dai.www.QueryUser</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>QueryUser</servlet-name>
+    <url-pattern>/QueryUser</url-pattern>
+  </servlet-mapping>
+</web-app>
