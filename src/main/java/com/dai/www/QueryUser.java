@@ -41,7 +41,6 @@ public class QueryUser extends HttpServlet {
                 users.add(user);
             }
             // 完成后关闭
-            rs.close();
             stmt.close();
             conn.close();
 
